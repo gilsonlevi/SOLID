@@ -1,3 +1,7 @@
-public abstract class Shape {
+public interface ShapeInterface {
+    protected int width;
+    protected int height;
+
+    public int calculateArea();
 
 }

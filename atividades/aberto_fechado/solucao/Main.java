@@ -8,4 +8,4 @@ public class Main {
         formas.forEach((forma) -> forma.draw()); 
         
     }
-}
+} 
