@@ -11,6 +11,6 @@ public class LightBulb {
     }
 
     public void turnOff() {
-        System.out.println("Light bulb turned off");
+        System.out.println("Light bulb turned on");
     }
 }
