@@ -5,4 +5,9 @@ public class Square implements Shape {
         this.height = height;
     }
 
+    @Override
+    public void setHeight(int height) {
+        this.width = height;
+        this.height = height;
+    }
 }
