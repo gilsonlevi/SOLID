@@ -1,13 +1,13 @@
 public class Square implements Shape {
-    @Override 
-    public void setWidth(int width) {
-        this.width = width;
-        this.height = height;
+
+    private int side;
+
+    public void setSide(){
+        this.side = side;
     }
 
     @Override
-    public void setHeight(int height) {
-        this.width = height;
-        this.height = height;
+    public int calculateArea() {
+        return side * side;
     }
 }

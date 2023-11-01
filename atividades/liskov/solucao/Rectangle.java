@@ -1,11 +1,12 @@
 public class Rectangle implements Shape {
 
-    @Override
+    private int height;
+    private int width;
+
     public void setWidth(int width) {
         this.width = width;
     }
 
-    @Override
     public void setHeight(int height) {
         this.height = height;
     }
